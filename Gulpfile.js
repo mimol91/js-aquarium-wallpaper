@@ -50,7 +50,7 @@ app.browserify = function(entryFilename, outputFilename) {
         })
         .pipe(source(outputFilename))
         .pipe(buffer())
-        .pipe(plugins.if(CONFIG.production, plugins.uglify({ mangle:false })))
+        .pipe(plugins.if(CONFIG.production, plugins.uglify()))
         .pipe(gulp.dest(CONFIG.buildDir));
 };
 app.copy = function(srcFiles, outputDir) {
