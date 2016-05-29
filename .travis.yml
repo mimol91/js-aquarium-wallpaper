@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "0.12"
+  - "4"
+  - "5"
+
+before_install:
+  - npm install -g gulp
+  - cp config/config.js.dist config/config.js
+
+script: gulp postinstall
