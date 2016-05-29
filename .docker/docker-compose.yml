@@ -1,0 +1,7 @@
+wallpaper:
+  build: .
+  container_name: wallpaper
+  ports:
+   - "80:80"
+  volumes:
+   - ../:/app

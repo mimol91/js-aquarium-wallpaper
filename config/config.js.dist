@@ -1,0 +1,7 @@
+module.exports = {
+    production: true,
+    buildDir: 'dist',
+    libDir: 'lib',
+    vendorDir: 'vendor',
+    port:80,
+};
