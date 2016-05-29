@@ -37,9 +37,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/amimol/pixi-fish-wallpaper.git"
+    "url": "git+ssh://git@github.com:mimol91/js-aquarium-wallpaper.git"
   },
   "author": "MIMOL",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/amimol/pixi-fish-wallpaper"
+  "homepage": "https://github.com/mimol91/js-aquarium-wallpaper"
 }
